@@ -1,5 +1,3 @@
-//contex.js
-
 import React, { useState, useContext, useEffect } from 'react';
 import { useCallback } from 'react';
 
@@ -11,20 +9,17 @@ const AppProvider = ({ children }) => {
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [resultTitle, setResultTitle] = useState("");
-  // State for favorite books
   const [favoriteBooks, setFavoriteBooks] = useState([]);
 
-  // Function to add a book to favorites
+  
   const addToFavorites = (book) => {
     setFavoriteBooks([...favoriteBooks, book]);
   };
 
-  // Function to remove a book from favorites
   const removeFromFavorites = (bookId) => {
     setFavoriteBooks(favoriteBooks.filter((book) => book.id !== bookId));
   };
 
-  // Fetch books function
   const fetchBooks = useCallback(async () => {
     setLoading(true);
     try {
@@ -76,7 +71,6 @@ const AppProvider = ({ children }) => {
         setSearchTerm,
         resultTitle,
         setResultTitle,
-        // Pass favorite state and functions to context value
         favoriteBooks,
         addToFavorites,
         removeFromFavorites,

@@ -1,11 +1,9 @@
-//FavoriteBooks.jsx
-
 import React from 'react';
 import { useGlobalContext } from '../../context.';
-import "./FavoriteBooks.css"; // Import CSS file for styling
+import "./FavoriteBooks.css";
 
 const FavoriteBooks = () => {
-  const { favoriteBooks, removeFromFavorites } = useGlobalContext(); // Add removeFavoriteBook function from context
+  const { favoriteBooks, removeFromFavorites } = useGlobalContext();
 
   return (
     <section className='favorite-books'>
@@ -24,7 +22,6 @@ const FavoriteBooks = () => {
                     <p>Author: {book.author.join(", ")}</p>
                     <p>Editions: {book.edition_count}</p>
                     <p>First Publish Year: {book.first_publish_year}</p>
-                    {/* Add Remove from Favorites button */}
                     <button
                       className='remove-btn'
                       onClick={() => removeFromFavorites(book.id)}

@@ -1,9 +1,9 @@
 .footer {
     padding: 1.8rem 0;
-    background-color: lightgreen; /* Set the background color to light green */
-    box-shadow: rgba(202, 9, 186, 0.1) 0px 10px 15px -3px, rgba(170, 25, 138, 0.05) 0px 4px 6px -2px;
-    border-top-left-radius: 20px; /* Add curved border to top-left corner */
-    border-top-right-radius: 20px; /* Add curved border to top-right corner */
+    background-color: lightgreen; 
+    box-shadow: rgba(202, 9, 186, 0.1);
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
   }
   
   .container {
@@ -14,9 +14,10 @@
     justify-content: center;
   }
   
+
   .footer-text {
     font-size: 18px;
-    color: purple; /* Purple color */
+    color: purple; 
     margin-right: 10px;
     font-weight: 400;
   }
@@ -24,7 +25,7 @@
   .copyright {
     font-size: 14px;
     color: black;
-    border-bottom-left-radius: 20px; /* Add curved border to bottom-left corner */
-    border-bottom-right-radius: 20px; /* Add curved border to bottom-right corner */
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
   }
   

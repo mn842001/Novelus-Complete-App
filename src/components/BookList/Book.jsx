@@ -1,5 +1,3 @@
-//Book.jsx
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../../context.';
@@ -9,7 +7,6 @@ import "./BookButton.css";
 const Book = (book) => {
   const { addToFavorites, removeFromFavorites, favoriteBooks } = useGlobalContext();
 
-  // Check if the book is in favorites
   const isFavorite = favoriteBooks.some(favBook => favBook.id === book.id);
 
   return (
@@ -39,7 +36,7 @@ const Book = (book) => {
           <span>{book.first_publish_year}</span>
         </div>
 
-        {/* Render different button based on whether book is in favorites */}
+
         {isFavorite ? (
           <button className="btn btn-remove-from-favorites" onClick={() => removeFromFavorites(book.id)}>
             Remove from Favorites

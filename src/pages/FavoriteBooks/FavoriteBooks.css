@@ -15,13 +15,13 @@
   .favorite-books-list {
     margin-top: 20px;
     width: 100%;
-    display: grid; /* Use grid layout for better control */
-    gap: 20px; /* Add some space between items */
-    justify-items: center; /* Center items horizontally */
+    display: grid; 
+    gap: 20px; 
+    justify-items: center; 
   }
   
   .favorite-books-list p {
-    margin-top: 20px; /* Add some space between the title and the message */
+    margin-top: 20px; 
   }
   
   .favorite-book-item {
@@ -30,7 +30,7 @@
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
     transition: all 0.3s ease;
-    overflow: hidden; /* Ensure border-radius applies correctly */
+    overflow: hidden; 
   }
   
   .favorite-book-item:hover {

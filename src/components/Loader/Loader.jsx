@@ -1,5 +1,3 @@
-//Loader.jsx
-
 import React from 'react';
 import LoaderImg from "../../images/loader.svg";
 import "./Loader.css";

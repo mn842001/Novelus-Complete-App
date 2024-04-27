@@ -1,4 +1,3 @@
-//Navbar.jsx
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
@@ -32,7 +31,6 @@ const Navbar = () => {
             <li className='nav-item'>
               <Link to="about" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>About</Link>
             </li>
-            {/* Add link to favorite page */}
             <li className='nav-item'>
               <Link to="favorite" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Favorites</Link>
             </li>

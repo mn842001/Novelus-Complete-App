@@ -1,6 +1,6 @@
 .book-details {
     padding: 6rem 0;
-    border-radius: 20px; /* Add curved borders */
+    border-radius: 20px;
   }
   
   .back-btn {
@@ -82,13 +82,13 @@
   .book-details-img {
     max-height: 600px;
     overflow: hidden;
-    border-radius: 8px; /* Add curved borders */
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px 0px; /* Add shadow */
-    transition: box-shadow 0.3s ease; /* Add transition for hover effect */
+    border-radius: 8px; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px 0px; 
+    transition: box-shadow 0.3s ease; 
   }
   
   .book-details-img:hover {
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px 0px; /* Adjust shadow on hover */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px 0px; 
   }
   
   .book-details-img img {
@@ -96,6 +96,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 8px; /* Add curved borders to the image */
+    border-radius: 8px; 
   }
   
