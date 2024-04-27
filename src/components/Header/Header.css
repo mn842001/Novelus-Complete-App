@@ -1,0 +1,36 @@
+.header-content {
+    min-height: 75vh;
+    background: url("../../images/library-img.jpg") center/cover no-repeat;
+    flex-direction: column;
+    display: flex; /* Ensure flex container */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text */
+    border-radius: 20px; /* Add a slightly curved border */
+  }
+  
+  .header-title {
+    font-size: 4.2rem;
+    color: white; /* Set text color to white */
+  }
+  
+  .header-text {
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+    color: white; /* Set text color to white */
+    font-weight: 700;
+    font-size: 2.8rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header-title {
+      font-size: 3.5rem; /* Decrease font size for smaller screens */
+    }
+  
+    .header-text {
+      font-size: 2rem; /* Decrease font size for smaller screens */
+    }
+  }
+  

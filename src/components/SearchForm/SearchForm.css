@@ -1,0 +1,50 @@
+.search-form {
+    width: 100%;
+    max-width: 680px;
+  }
+  
+  .search-form-elem {
+    display: flex;
+    align-items: center;
+    padding: 1.4rem 2.8rem;
+    border-radius: 3.8rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .search-form-elem .form-control {
+    flex: 1;
+    font-size: 2rem;
+    padding: 0.8rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .search-form-elem .form-control::placeholder {
+    opacity: 0.9;
+  }
+  
+  .search-form-elem .form-control:focus::placeholder {
+    opacity: 0.6;
+  }
+  
+  .search-form-elem button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .search-form-elem button:hover {
+    transform: scale(1.1);
+  }
+  
+  .text-purple {
+    color: #8a3ffc;
+  }
+  
+  .text-red {
+    color: #ff5858;
+  }
+  

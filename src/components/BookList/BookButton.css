@@ -1,0 +1,22 @@
+/* BookButton.css */
+
+/* Styles for Add to Favorites button */
+.btn-add-to-favorites {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styles for Remove from Favorites button */
+  .btn-remove-from-favorites {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
