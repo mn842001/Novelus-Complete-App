@@ -1,1 +1,1 @@
-We willbe buiding a library like Web App that allows users to search for books and add or remove them to their favorite list as they wish. 
+I will be buiding a library like Web App that allows users to search for books and add or remove them to their favorite list as they wish. 
